@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: lightgreen;
+    background-color: lightblue;
     height: 10vh;
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@ main .definition .word {
 }
 
 main .definition .meaning {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
 }
@@ -106,6 +106,7 @@ main .definition .sound ion-icon:hover {
 }
 
 main .next .continuar {
+    width: 60%;
     margin-top: 1.8rem;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
@@ -114,13 +115,20 @@ main .next .continuar {
     padding: 13px 50px 13px;
     outline: 0;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 25px;
     cursor: pointer;
-    position: relative;
-    background-color: #ffcb0c;
+    /* background-color: #641975; */
+    background-color: #00008b;
+    color: #f9f9f9;
+    box-shadow: 3px 3px 4px rgba(0,0,0,.3);
+}
+
+main .next .continuar .arrow {
+    font-size: 1.6rem;
 }
 
 main .next .continuar:hover {
-    background-color: #ffd63f;
+    background-color: #0000d8;
+    /* background-color: #A629C2; */
 }
   
